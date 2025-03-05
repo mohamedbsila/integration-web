@@ -1,0 +1,12 @@
+{
+  "name": "integration-web",
+  "version": "1.0.0",
+  "description": "Projet d'intégration web avec Tailwind CSS",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+} 
