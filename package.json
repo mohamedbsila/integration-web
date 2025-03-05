@@ -6,7 +6,7 @@
     "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
 } 
